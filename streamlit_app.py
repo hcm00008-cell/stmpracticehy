@@ -20,7 +20,7 @@ csv_url1 = "https://docs.google.com/spreadsheets/d/1VC_q8HJfIufjGVR2zGRcJjBgkefI
 df1 = pd.read_csv(csv_url1)
 st.subheader("Choice 값 막대그래프")
 choice_counts = df1["choice"].value_counts()
-st.bar_char t(choice_counts)
+st.bar_chart(choice_counts)
 
 st.subheader("Choice 값 (카운트)")
 st.dataframe(choice_counts.rename_axis("choice").reset_index(name="count"))
