@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("뚱뚱이네 홈페이지에 방문하신 것을 환영합니다")
+st.title("홈페이지에 방문하신 것을 환영합니다")
 st.write(
     "자세한 내용을 보고 싶다면(https://docs.streamlit.io/)."
 )
