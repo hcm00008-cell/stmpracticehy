@@ -18,7 +18,7 @@ st.info("📘 누구나 볼 수 있도록 공개된 시트를 Pandas로 직접 �
 
 csv_url1 = st.secrets["connections"]["gsheets"]["public_url"]
 df1 = pd.read_csv(csv_url1)
-st.subheader("Choice 값 막대그래프!")
+st.subheader("Choice 값 막대그래프!!!")
 choice_counts = df1["choice"].value_counts()
 st.bar_chart(choice_counts)
 
